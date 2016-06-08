@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 13:19:11
+    Author     : Raphael Pizzo
+*/
+
+/*começa aqui configurações da tabela zebrada*/			
+body {
+  font: "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 20em;
+  border: 1px solid #666;
+}
+thead {
+  background: #ccc url(http://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+tr:hover {
+  background-color:#3d80df;
+  color: #fff;
+}
+
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+}
+tr:nth-child(even) {
+    background-color: #edf5ff;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+}
+th, td {
+  padding: 0.1em 1em;/*tamanho da linha da tabela*/
+}                      /*termina aqui configurações da tabela zebrada*/	
+
+/*Fim das configuraões da tabela zebrada*/
+
+
+.margembranca{
+    padding: 15px;
+}
+
+
+.btnazul{
+    margin-right: 5px;
+   margin-left: 1em;
+}
+
+/*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+.header-style{
+    border: 1px solid #DCDCDC;
+}
+
+.menu-style{
+    border: 1px solid #DCDCDC;
+    height: 41em;
+}
+
+.container-style{
+    height: 100%;
+}
+/*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+
+
+/* configurações da navbar*/
+.navbar.navbar-default.nab-branco{
+    background: #FFFFFF;
+}
+.container-fluid{
+    height: 4em;
+}   
+/* Fim configurações da navbar*/
+
+
+/*configurações do formulário*/
+.col-sm-9{
+    margin-left: 3em;    
+}
+/*FIM das configurações do formulário*/
+
+/*tamanho da caixa do fomulário*/
+.tamanho{
+    width: 30em;
+}
+
+.tamanho2{
+      width: 47em;
+}
+/*FIM do tamanho da caixa do fomulário*/
+
+/*Espaço entre a palavra  a caixa de texto*/
+.espaco{
+ margin-left: 7px;
+}
+
+.incremento{
+    padding-left: 1em;
+}
+/*FIM Espaço entre a palavra  a caixa de texto*/
+
+;
+.largura{
+    font-size: 5em;
+    width: 4em;
+    padding-right: 5em;
+    padding-left: 8em;
+}
+
+.adicional{
+    margin-right: 28em;
+    margin-top: 5em;
+}

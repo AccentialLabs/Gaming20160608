@@ -1,0 +1,152 @@
+.margembranca{
+    padding: 15px;
+}
+/*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+.header-style{
+    border: 1px solid #DCDCDC;
+}
+
+.menu-style{
+    border: 1px solid #DCDCDC;
+    height: 100%;
+}
+
+.container-style{
+    height: 100%;
+}
+/*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+
+/* configurações da navbar*/
+.navbar.navbar-default.nab-branco{
+    background: #FFFFFF;
+}
+.container-fluid{
+    height: 4em;
+}
+/* Fim configurações da navbar*/
+
+.breadcrumb{
+    background: #FFFFFF;
+}
+
+.col-xs-3{
+    height: 5%;
+}
+
+.btnazul{
+    margin-right: 3em;
+    margin-left: 1em;
+}
+
+/*configurações do botão +*/
+.btn-plus{
+    margin-top: 12em;
+    padding-right: 2em;
+} 
+/* FIm configurações do botão +*/
+
+
+/* começa aqui a caixa de login*/
+legend.scheduler-border {
+    font-size: 1.2em !important;    /*size login */
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto; 
+    padding:0 8px;			/*position Login right-left */
+    width: 57px;                   /* position do tamanho do espaço do login  */
+}
+
+fieldset
+{
+    background-color:#FFFFFF; 
+    width: 100px;                   /*comprimento e largura da caixa de login */
+    height:150px;                      /*comprimento e largura da caixa de login */
+
+}
+
+legend.scheduler-border {
+    border-bottom:none;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;               /*  borda da caixa*/
+    padding: 0 15.9em 1.4em 1.4em !important;          /*  posição do texto cabeçalho esquerda-direita */
+    margin: 0 0 2.5em 0 !important;					 /*  posição da caixa de texto*/
+    -webkit-box-shadow:  0px 0px y 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+/*Fim da caixa de login */
+
+/*Aqui são as configurações dos componentes ,esstrela, trofeu...*/
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+   font-size:3em; /*tamanho da estrela*/
+   padding:0em; /*distancia enttre as estrelas*/
+}
+
+.rating:not(:checked) > label:before {
+    content: '★';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+}
+                        /*aqui termina a estrela de Rating*/
+                         
+ /*Tamanho e altura da caixinha da estrela */
+.rating {
+    float:left;
+    background-color: #FFF;
+    width: 10em;
+    height: 1em;
+} 
+/*aqui começa posições dos niveis */
+.nivelps{
+  margin-top: -6em;
+   padding-left: 1em;
+}
+/*esse aqui é o nível 2 */
+.nivelps1{
+ 
+}
+/*esse aqui é o nível 1 */
+.nivelps2{
+
+    padding-left: 7em;
+}
+/*Fim das posições dos niveis*/
+
+.canvasps{
+    margin-right: -2em;
+}
+/*Fim do tamanho e altura da caixinha da estraela*)*/

@@ -1,0 +1,432 @@
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not 
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+
+  }
+  .sidebar-nav .navbar li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+	 background: #FFF;
+  } 
+}
+fieldset.scheduler-border {
+    border: 5px groove #ddd !important;
+    padding: 0.0em 2.0em 5.5em 0.1em !important;
+    margin: 0 0 1.5em 100!important;
+    -webkit-box-shadow:  px 0px y 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+} 
+
+    legend.scheduler-border {
+        font-size: 1.3em !important;
+        font-weight: bolder !important;
+        text-align: left !important;
+        width:auto;
+        padding:90 25px;
+		border: nenhum; 
+        width: 110px;
+    }
+
+	
+		body {
+	background-color:#C0C0C0;
+	margin:00;
+	padding:00;
+	font-style: normal;
+	font-variant: normal;
+	font-weight:bold;
+	font-size:14px;
+	font-family:sans-serif;
+	line-height:20px; 
+	letter-spacing: 5px;
+	text-align:justify;
+	color:#000000; 
+}
+
+	{
+    position:relative;
+    left:370%;
+    top:100em; 
+    width:320px;
+    height:270px;
+} 
+
+fieldset
+{
+    background-color:#00008B; 
+    width:400px; 
+    height:400px;
+}
+legend
+{
+    font-weight:bold;
+    font-family: "Segoe UI","Arial","Times New Roman";
+}
+.formulario label
+{
+    position:absolute;
+    left:19px;
+    margin-right:9px;
+}
+
+.formulario textarea.msg
+{
+    position:absolute;
+    background-color:#f1ff00;
+}
+
+
+.col-md-12{
+	margin:0px!important;
+	
+}
+	
+	
+.container{
+	margin:0px!important;
+	padding:0px!important;
+	width:100%!important;
+}	
+.navbar-header{
+		margin:0px!important;
+		padding:0px;
+		width:18 s2%;
+	}
+	.pull-left{
+    vertical-align:middle;
+	}
+	                            /*Aqui começa o menu lateral empurrando o conteúdo para o lado.*/
+
+								 
+.wrap {
+ 
+    max-width: 950px;	
+    margin: 0 auto;
+    background-position : top borda!important;	
+	
+}
+	
+
+		
+
+  .nav {
+	  z-index: 200;
+	  position: relative;
+	  width: 15%;
+	  font-size: 1.1em;
+	  float: left;
+	  background: #FFFFFF;
+	 position:fixed;
+    margin-top: 0px !important; 
+  }
+  
+  .class1{
+	  position:left!important;
+
+  } 
+  
+  .class2{
+	  position:right!important;
+  } 
+   
+       
+     .nav ul {
+        padding: 13em;
+      }
+       
+        li {
+	         display: block;
+	         width: 100%;
+	         margin: 1em 2em 1em 0;
+         }
+       
+            {
+	           text-decoration: none;
+	           color: #000000;
+           }
+       
+             a:hover {
+       		      color: black;
+             }
+       
+       .nav-toggle {
+       		display: none;
+       }
+       
+.foto {
+    width: 80%;
+    float: right;
+}
+ {
+.wrap {
+	 max-width: 100%;
+	 margin: 0;
+}
+.fixar {
+    position:fixed;
+    margin-top: 0px !important;
+}
+
+
+  .nav {
+       		width: 175px;
+       		position: left;
+       		top: 0;
+       		left: 0;
+       }
+   .nav ul {
+        padding: .5em;
+        margin: 0;
+      background:#000000;
+     }
+	            list { 
+	         margin: 0;
+	         padding: 0;
+	         display: block;
+        }
+       			
+           li a {
+	           padding: 0.5em 0 0.5em 0;
+	           display: block;
+           color: #000000;
+           }      
+            
+	      .nav-toggle {
+	       		position: absolute;
+	       		top: 0;
+	       		right: -56px;
+                color: #000000;
+	       		cursor: pointer;
+	       		width: 44px;
+	       		height: 24px;
+	       		z-index: 1000;
+	       		display: block;
+	       		background:#000000;
+	       		padding: 12gpx 6px 6px 6px;
+				padding : 12px 7px 2px 12px; 
+	       }		  
+		  	
+      .foto {
+	       	width: 100%;
+	       	position: relative;
+	       	float: none;
+	   }
+}
+<title>Barras de Navegação CSS</title>
+ 
+.::Barras na Horizontal::.
+ 
+<style type="text/css">
+.barNav a {
+font: 12px  Arial, Verdana,Helvetica,sans-serif;
+color: #FFFFFF;
+text-decoration: none;
+background:  #6495ED;
+text-align: center;
+padding: 1px 5px;
+margin-right: -1px;
+border: 0px solid #000000;
+}
+ 
+ 
+.barNav a:hover {
+color: #666666;
+background: #FCFCFC;
+border: 1px solid #666666;
+}
+
+</style>
+ 
+<body>
+<p class="barNav">
+<a href="seu_link.html" >Home</a>
+<a href="seu_link.html">Jogos</a>
+<a href="seu_link.html">Mural de Recados</a>
+<a href="seu_link.html">Fotos</a>
+<a href="seu_link.html">Vídeos</a>
+<a href="seu_link.html">Eventos</a>
+<a href="seu_link.html">Contato</a>
+</p>
+ 
+ 
+.::Barras na Vertical::.
+ 
+<style type="text/css">
+.barNav a {
+font: 12px  Arial, Verdana,Helvetica,sans-serif;
+color: #FFFFFF;
+text-decoration: none;
+background:   #6495ED;
+text-align: center;
+padding: 1px 5px;
+margin-right: -1px; 
+border: 0px solid #000000;
+
+}
+
+
+ .collapse.width {
+    height: auto;
+    -webkit-transition: width 0.35s ease;
+    -moz-transition: width 0.35s ease;
+    -o-transition: width 0.35s ease;
+    transition: width 0.35s ease; 	
+	
+}
+
+                            /*menu horizontal 2.*/	
+	
+
+.menu-bar { 
+width: 95%;
+margin: 0px 0px 0px 0px;
+padding: 16px 0px 0px 0px;
+height: 46px;
+line-height: 100%;
+ 
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+box-shadow: 0px 0px 0px #FFFFFF;
+-webkit-box-shadow: 0px 0px 0px #FFFFFF;
+-moz-box-shadow: 0px 0px 0px #FFFFFF;
+position:relative;
+z-index:999;
+text-align:center;
+}
+.menu-bar li {
+margin: 0px 0px 6px 0px;
+padding: 0px 0px 0px 0px;
+float:left;
+position: relative;
+list-style: none;
+display:inline; 
+}
+
+.menu-bar a {
+display:inline-block;
+font-weight: normal;
+font-family: arial;
+font-style: normal;
+font-size: 12px;
+color: #000000;
+text-decoration: none;
+
+padding: 25px 25px 25px 25px;
+margin: 0;
+margin-bottom: 6px;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+text-shadow: 0px 0px 0px #000000;
+}
+.menu-bar li ul li a {
+
+margin:0 500px;
+}
+.menu-bar .active a, #menu-bar li:hover > a {
+background: #0399D4;
+color: #FFFFFF;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+text-shadow: 0px 0px 0px #FFFFFF;
+}
+.menu-bar ul li:hover a, #menu-bar li:hover li a {
+background: none;
+border: none;
+color: #666;
+-box-shadow: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+}
+.menu-bar ul a:hover {
+background: #0399D4 !important;
+color: #FFFFFF !important;
+border-radius: 0;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+text-shadow: 0px 0px 0px #FFFFFF;
+}
+.menu-bar ul {
+background: #DDDDDD;
+background: linear-gradient(top, #FFFFFF, #CFCFCF);
+background: -ms-linear-gradient(top, #FFFFFF, #CFCFCF);
+background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
+background: -moz-linear-gradient(top, #FFFFFF, #CFCFCF);
+display: none;
+margin: 0;
+padding: 0;
+width: 185px;
+position: absolute;
+top: 46px;
+left: 0;
+border: solid 1px #B4B4B4;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-box-shadow: 2px 2px 3px #222222;
+-moz-box-shadow: 2px 2px 3px #222222;
+box-shadow: 2px 2px 3px #222222;
+}
+.menu-bar li:hover > ul {
+display: block;
+}
+.menu-bar ul li {
+float: none;
+margin: 0;
+padding: 0;
+}
+.menu-bar ul a {
+padding:10px 0px 10px 15px;
+color:#424242 !important;
+font-size:12px;
+font-style:normal;
+font-family:verdana;
+font-weight: normal;
+text-shadow: 2px 2px 3px #FFFFFF;
+}
+.menu-bar ul li:first-child > a {
+border-top-left-radius: 10px;
+-webkit-border-top-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+border-top-right-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+}
+.menu-bar ul li:last-child > a {
+border-bottom-left-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+}
+.menu-bar:after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+.menu-bar {
+display: inline-block;
+}
+html[xmlns] #menu-bar {
+display: block;
+}
+* html #menu-bar {
+height: 1%;
+}

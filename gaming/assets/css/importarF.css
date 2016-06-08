@@ -1,0 +1,94 @@
+
+.tamanhoicone{
+    font-size: 2.0em ;
+}
+
+.margembranca{
+    padding: 1em;
+}
+/*esse aqui é a borda da caixa de que contém o texto*/
+fieldset.scheduler-border-custom {
+    border: 1px groove #ddd !important;               /*  borda da caixa*/
+   padding: 0 1.4em 1.4em -1em !important;          /*  posição do texto cabeçalho esquerda-direita */
+    margin: 0 0 1.5em 0 !important;					 /*  posição da caixa de texto*/
+    -webkit-box-shadow:  0px 0px y 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border-custom {
+        font-size: 1.2em !important;    /*  size login */
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto; 
+        padding:0 15px;			/*  position Login right-left */
+        width: 19em;                   /*  position do tamanho do espaço do login 357 */
+        border-bottom: 0px;
+    } 
+    /*FIM da borda da caixa de que contém o texto*/
+    
+    /*configurações do checkbox no fim da página */
+    .checboxcontainer{
+       margin-left: 15px;
+    }
+    
+    label{
+        font-weight: normal; 
+    }
+     /*FIM das configurações do checkbox no fim da página */
+     
+    .btnazul{
+        margin-right: 5px;
+    }
+    
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 100%;
+    }
+    
+    .container-style{
+        height: 100%;
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    
+    /*Agrega uma separador dentro do menu */
+    .divider-style{
+        width:100%;
+         height: 1px;
+        background: #DCDCDC; 
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
+     /*Termina qui o separador  de dentro do menu */
+     
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }
+    /* Fim configurações da navbar*/
+    
+    /*configigurações do botn voltar e o cabelçalho*/       
+      .nav-stacked{
+          margin-left: -1em;
+          margin-right: -1em;
+      }
+      
+      .nab-branco{
+          margin-left: -2em;
+          margin-right: -1em;
+          margin-bottom: 0em;
+      }
+       /*FIM configigurações do botão voltar e a nav-bar*/
+       
+       /*tirando o espaçamento da tela com o padding*/
+       #elemento1{
+           padding: 0px;
+       }
+         /*FIm do codigo de retirando o espaçamento da tela com o padding*/

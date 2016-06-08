@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+.margembranca{
+    padding: 15px;
+}
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 100%;
+    }
+    
+    .container-style{
+        height: 100%;  
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }
+    /* Fim configurações da navbar*/
+
+    .breadcrumb{
+        background: #FFFFFF;
+    }
+    /* configurações da tabela */
+    .table-responsive{
+        padding-top: 0%;
+        padding-left: 1.1em; /*da uma margme direita para tabela , jogando ela para o lado esquerdo*/
+    }
+     /* configurações da tabela */
+     
+     /*botão do fim da página*/
+     .btnazul{
+    margin-right: 5px;
+}
+ /*FIM do botão do fim da página*/
+ 
+   /*configigurações do botn voltar e o cabelçalho*/       
+      .nav-stacked{
+          margin-left: -1em;
+          margin-right: -1em;
+      }
+      
+      .nab-branco{
+          margin-left: -2em;
+          margin-right: -1em;
+          margin-bottom: 0em;
+      }
+       /*FIM configigurações do botão voltar e a nav-bar*/

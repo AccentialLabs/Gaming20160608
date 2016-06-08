@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 13:19:11
+    Author     : Raphael Pizzo
+*/
+
+.celular{  /*Aqui é o ativo do iphone ou celular */
+
+
+    margin-top: -4em;
+    margin-left: 770px;
+}
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Ativo";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Inativo";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}				/*Aqui termina o ativo do iphone ou celular */
+
+
+.margembranca{
+    padding: 15px;
+}
+
+
+.btnazul{
+    margin-right: 5px;
+   margin-left: 1em;
+}
+
+/*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+.header-style{
+    border: 1px solid #DCDCDC;
+}
+
+.menu-style{
+    border: 1px solid #DCDCDC;
+    height: 41em;
+}
+
+.container-style{
+    height: 100%;
+}
+/*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+
+
+
+/* configurações da navbar*/
+.navbar.navbar-default.nab-branco{
+    background: #FFFFFF;
+}
+.container-fluid{
+    height: 4em;
+}   
+/* Fim configurações da navbar*/
+
+
+/*configurações do formulário*/
+.col-sm-9{
+    margin-left: 3em;    
+}
+/*FIM das configurações do formulário*/
+
+/*tamanho da caixa do fomulário*/
+.tamanho{
+    width: 30em;
+}
+
+.tamanho2{
+      width: 47em;
+}
+/*FIM do tamanho da caixa do fomulário*/
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-
+, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+
+      
+      .nab-branco{
+          margin-left: 0em;
+          margin-right: 1em;
+          margin-bottom: 0em;
+      }

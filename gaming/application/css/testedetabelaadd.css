@@ -1,0 +1,211 @@
+		 .celular{  /*Aqui é o ativo do iphone ou celular */
+
+   margin-right:10px;
+   margin-top: 5px;
+   margin-left: 870px;
+}
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+ 
+ 
+ 
+ .row-fluid {		
+  font-size: 15px;
+					 width: 610px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
+					}
+		
+        .unit1{                    
+		width: 115px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
+		margin-left: 20px;
+		 margin-top: -10px;
+		}		
+ 
+ .unit0{
+	 width: 135px;
+	  margin-top: -40px;
+	margin-left: 20px;
+ }
+ 
+  .unit1-1{
+	 width: 175px;
+	  margin-top: 5px;
+	margin-left: 20px;
+ }
+ 
+ .unit1-2{
+	 width: 130px;
+	  margin-top: 5px;
+	margin-left: 20px;
+ }
+ 
+ .unit1-3{
+	 width: 130px;
+	  margin-top: 5px;
+	margin-left: 20px;
+ }
+ 
+ 
+ .unit1-4{
+	 width: 175px;
+	  margin-top: 0px;
+	margin-left: -45px;
+ }
+ 
+.unit1-5{
+	width: 175px;
+	margin-top: 30px;
+	margin-left: 320px;
+ }
+				
+ .unit1-6{
+	 width: 175px;
+	  margin-top: 20px;
+	margin-left: 337px;
+ } 
+ 
+.unit1-7{
+ width: 175px;
+ margin-top: 0px;
+ margin-left: 502px;
+ }
+ 		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				/*aqui começa todas as configurações do modal e seusseus componentes de dentro*/
+
+.btnclick{								/*configuarações do botão (+)*/
+	font-size:15px;
+	 width: 120px;
+	margin-left: 245px;
+	 margin-top: 123px; 
+}										/* termine aqui as configuarações do botão (+)*/
+
+.table{                                         
+	font-size:  15;
+	    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+  }
+  
+  .unitmd{                /* classe da linha escrita dentro do modal"jogadores por time" */
+	  font-size:13px;
+	 width: 220px;
+	margin-left: 18px;
+	 margin-top: 30px; 
+  }						 /* termina aqui a classe do linha escrita dentro do modal "jogadores por time" */
+  
+  
+  .btn.btn-info1{                /*botões de dentro do modal a sua posição*/
+
+	margin-left: 185px;
+	 margin-top: -24px;   
+  }
+  
+  .btn.btn-info{
+	margin-left: 265px;
+	margin-top: -24px;  
+  }                              /* termina aqui os botões de dentro do modal a sua posição*/
+  
+  .modal-dialog.modal-sm{     /*diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg*/
+	    font-size:13px;
+	 width: 350px;
+	margin-left: 500px;      /*A margin-left faz com que o modal inteiro vá da direita para a esquerda*/
+	 margin-top: 10px;
+  }							 /*termina aqui o diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg*/
+  
+  
+  .btn.btn-info3{
+	  	margin-left: 185px;
+	 margin-top: 133px;  
+  }
+						  /*aqui termina todas as configurações do modal e seus seus componentes de dentro*/
+						  
+						  
+						  
+						  
+  
+  
+  
+  body {					  /*começa aqui configurações da tabela zebrada*/		
+  font: 120%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 50em;
+  border: 1px solid #666;
+}
+thead {
+  background: #ccc url(http://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+tr:hover {
+  background-color:#FFF;
+  color: #000;
+}
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+}
+tr:nth-child(even) {
+    background-color: #edf5ff;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+}
+th, td {
+  padding: 0.1em 1em;/*tamanho da linha da tabela*/
+}							  /*termina aqui configurações da tabela zebrada*/	

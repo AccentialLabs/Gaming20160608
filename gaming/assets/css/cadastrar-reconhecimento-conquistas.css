@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 13:19:11
+    Author     : Raphael Pizzo
+*/
+
+.celular{  /*Aqui é o ativo do iphone ou celular */
+  margin-right: 6em;
+
+}
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Ativo";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Inativo";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+/*ermina aqui onoffswitch do celular*/
+
+
+.margembranca{
+    padding: 15px;
+}
+
+
+.btnazul{
+    margin-right: 5px;
+   margin-left: 1em;
+}
+
+/*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+.header-style{
+    border: 1px solid #DCDCDC;
+}
+
+.menu-style{
+    border: 1px solid #DCDCDC;
+    height: 41em;
+}
+
+.container-style{
+    height: 100%;
+}
+/*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+
+
+/* configurações da navbar*/
+.navbar.navbar-default.nab-branco{
+    background: #FFFFFF;
+}
+.container-fluid{
+    height: 4em;
+}   
+/* Fim configurações da navbar*/
+
+
+/*configurações do formulário*/
+.col-sm-9{
+    margin-left: 3em;    
+}
+/*FIM das configurações do formulário*/
+
+/*tamanho da caixa do fomulário*/
+.tamanho{
+    width: 30em;
+}
+
+.tamanho2{
+      width: 47em;
+}
+/*FIM do tamanho da caixa do fomulário*/
+
+/*Espaço entre a palavra  a caixa de texto*/
+.espaco{
+ margin-left: 7px;
+}
+
+.incremento{
+    padding-left: 1em;
+}
+/*FIM Espaço entre a palavra  a caixa de texto*/
+
+;
+.largura{
+    font-size: 5em;
+    width: 4em;
+    padding-right: 5em;
+    padding-left: 8em;
+}
+
+.adicional{
+    margin-right: 28em;
+    margin-top: 5em;
+}
+/*posição da letra (á) depois da caixa de data*/
+.textpos{
+  margin-top: -9%;
+   margin-left: 13em;
+}
+
+.textpos1{
+  margin-top: -2em;
+   margin-left: 6em;
+}
+
+.mudar{
+    padding-left: 3em;
+}
+/*termina a posição da letra a;das;ás */
+
+.tabelap{
+     margin-left: 6em;
+     padding-left: 1em;
+}
+
+.verbocx{
+    margin-left: -3em;
+}
+
+
+ /*configigurações do botn voltar e o cabelçalho*/       
+      .nav-stacked{
+          margin-left: -1em;
+          margin-right: -1em;
+      }
+      
+      .nab-branco{
+          margin-left: -2em;
+          margin-right: -1em;
+          margin-bottom: 0em;
+      }
+       /*FIM configigurações do botão voltar e a nav-bar*/

@@ -1,0 +1,103 @@
+/*Esses são os botões do final da página cancelar-salvar*/
+.btn.btn-info1{
+   margin-right:100px;
+   margin-top: 450px;
+   margin-left: 680px
+}
+.btn.btn-info2{
+   margin-right:100px;
+   margin-top: -33px;
+   margin-left: 540px
+}
+/* Posicionamento dos Botões*/
+.btn.btn-info {
+	 margin-right:10px;
+   margin-top: -35px;
+   margin-left: 845px	
+	} /*Aqui termina os botões do final da página cancelar-salvar*/ 
+
+
+
+
+	color:Black;{
+	background-color:#000;
+	}
+	
+	.navbar-navbar-default{ 
+		 margin-left:0px;
+    width:90%;
+    height:30px!important;
+    margin-top:7px;
+    position:absolute;
+	background-color:#FFF; 
+
+	}
+	
+	
+
+    .navbar-brand{
+		
+		position: fixed center;
+			margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:0px ;
+			margin-right: 5px;
+			
+		padding-top: 5px; /*O padding tem um funcionamento muito similar ao do margin, porém ao invés de dar uma espaçamento
+		                    externo, faz a mesma coisa que a aclasse em baixo (sheduler-border) que a margin */
+		padding-right: 20px; 
+		padding-bottom: 0px;
+		padding-left: 5px;
+		
+	}
+	
+	
+	.navbar-header {
+		color:black;
+	
+		
+	}
+	
+	.container{
+		border: 1px solid pink;
+		
+	}
+	
+
+.container-fluid{ 
+	font-size:1.0em;
+	background-color:#fff;
+    margin-right: auto;
+    margin-left: auto;
+	padding-right: 150px;
+    padding-left: 15px;
+	position: relative;
+    min-height: 60px;
+    padding-right: 20px;
+    padding-left: 60px;
+}
+
+
+
+.divider { 
+	
+	background-color:#000;
+	margin-bottom:10px;
+}	
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px!important;
+    border: 1px solid transparent;
+}
+
+.breadcrumb {
+	background-color:#FFFFFF!important;
+}
+.btn-btn-large-btn-primary {
+		position:absolute;
+		top: 50px;
+		left: 50px;	
+	} 
+/* Posicionamento dos icones Checbox e stop*/
+

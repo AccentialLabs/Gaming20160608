@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 13:19:11
+    Author     : Raphael Pizzo
+*/
+
+
+
+
+    .btnazul{
+        margin-right: 15em;
+        margin-left: 1em;
+    }
+    
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 41em;
+    }
+    
+    .container-style{
+        height: 100%;
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    
+
+     
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }   
+    /* Fim configurações da navbar*/
+    
+                /*Posicção da tabela tanta da primeira parte quanta a segunda */
+                .table-responsive{
+                    height: 8em;
+                }
+               
+                .positiontab{
+                      margin-top: -77px;
+	             /*FIM Posicção da tabela */
+                     
+                }
+                /*configurações da posiçisão do checkbox da primeira linha da tabela */
+                .col-md-2.posicao{
+                    padding-right: 2em;   
+                }
+                 /* FIMconfigurações da posiçisão do checkbox da primeira linha da tabela */
+                 
+                 /*configigurações do botn voltar e o cabelçalho*/       
+      .nav-stacked{
+          margin-left: -1em;
+          margin-right: -1em;
+      }
+      
+      .nab-branco{
+          margin-left: -2em;
+          margin-right: -1em;
+          margin-bottom: 0em;
+      }
+       /*FIM configigurações do botão voltar e a nav-bar*/
+       
+       #elemento1{
+           padding: 0px;
+       }

@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 13:19:11
+    Author     : Raphael Pizzo
+*/
+
+
+.margembranca{
+    padding: 15px;
+}
+
+     
+    .btnazul{
+        margin-right: 3em;
+        margin-left: 1em;
+    }
+    
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 41em;
+    }
+    
+    .container-style{
+        height: 100%;
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    
+
+     
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }   
+    /* Fim configurações da navbar*/
+    
+                /*Posicção da tabela tanta da primeira parte quanta a segunda */
+                .table-responsive{
+                    height: 12em;
+                }
+               
+                .positiontab{
+                      margin-top: -132px;
+	             /*FIM Posicção da tabela */
+                     
+                }
+                /*configurações da posiçisão do checkbox da primeira linha da tabela */
+                .col-md-2.posicao{
+                    padding-right: 2em;   
+                }
+                 /* FIMconfigurações da posiçisão do checkbox da primeira linha da tabela */

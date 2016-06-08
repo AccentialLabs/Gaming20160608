@@ -1,0 +1,291 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 11:14:58
+    Author     : Raphael Pizzo
+*/
+
+.celular{  /*Aqui é o ativo do iphone ou celular */
+
+
+    margin-top: 0em;
+    margin-left: 5em;
+}
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}				/*Aqui termina o ativo do iphone ou celular */
+
+
+.celular{  /*Aqui é o ativo do iphone ou celular */
+    margin-top: 0em;
+    margin-left: 5em;
+}
+.onoffswitch2 {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch2-checkbox {
+    display: none;
+}
+.onoffswitch2-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch2-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch2-inner:before, .onoffswitch2-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch2-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch2-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch2-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-inner {
+    margin-left: 0;
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-switch {
+    right: 0px; 
+}				/*Aqui termina o ativo do iphone ou celular */
+
+/*Começa o onoffwitch 3*/
+.onoffswitch3 {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch3-checkbox {
+    display: none;
+}
+.onoffswitch3-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch3-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch3-inner:before, .onoffswitch3-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch3-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch3-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch3-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
+    margin-left: 0;
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-switch {
+    right: 0px; 
+}/*fim do onoffswitch 3*/
+
+/*começa aqui o onoffswitch 4*/
+.onoffswitch4 {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch4-checkbox {
+    display: none;
+}
+.onoffswitch4-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch4-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch4-inner:before, .onoffswitch4-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch4-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch4-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch4-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-inner {
+    margin-left: 0;
+}
+.onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-switch {
+    right: 0px; 
+}
+/*Fim do onoffswitch 4*/
+
+.margembranca{
+    padding: 15px;
+}
+   
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 100%;
+    }
+    
+    .container-style{
+        height: 100%;
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+  
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }
+    /* Fim configurações da navbar*/
+
+    .breadcrumb{
+        background: #FFFFFF;
+    }
+    /* configurações da tabela */
+    .table-responsive{
+        padding-top: 0%;
+        padding-left: 1.1em;
+    }
+     /*Muada a cor do icone facebook,google....*/
+.navbar-text > a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+a:hover{
+	color: #666666;  /* cor "vermelha" - só aparece assim que se dá um clique no icone */
+	background : white;
+}
+
+a:active{
+	color:	#666666;  /* cor "rosa" - aparece depois que você da um clique na tela */
+}
+
+a:link {
+	color: 	#0000FF;    /* cor "verde" - fica em duas linhas da letra */
+}            /*Termina aqui as configurações de cor do icone facebook,google,etc.*/
+
+     
+
+.btnaltura{
+    padding-top: 1.8em;
+
+}
+
+.col-xs-3{
+    height: 5%;
+}
+
+
+    .btnazul{
+        margin-right: 3em;
+        margin-left: 1em;
+    }
+
+     /*configigurações do (BTN voltar e o NAVBAR-CABEÇALHO)*/ 
+      .nav-stacked{         
+          margin-left: -1em;
+          margin-right: -1em;
+      }
+      
+      .nab-branco{
+          margin-left: -2em;
+          margin-right: -1em;
+          margin-bottom: 0em;
+      }    /*FIM configigurações do (BTN voltar) e a (NAVBAR-CABEÇÃLHO)*/

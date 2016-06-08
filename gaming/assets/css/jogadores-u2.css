@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 11:14:58
+    Author     : Raphael Pizzo
+*/
+
+/*botões do fim da página*/
+.btncinza3{
+      margin-right: 13em;
+}
+
+.btncinza1{
+        margin-right: 1em;
+    } 
+    .btncinza2{
+            margin-right: 1em;
+    }
+    /* Fim dos botões do fim da página*/
+    
+    
+  /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 100%;
+    }
+    
+    .container-style{
+        height: 100%;
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    
+    /*Agrega uma separador dentro do menu */
+    .divider-style{
+        width:100%;
+         height: 1px;
+        background: #DCDCDC; 
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
+     /*Termina qui o separador  de dentro do menu */
+     
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }
+    /* Fim configurações da navbar*/
+
+    .breadcrumb{
+        background: #FFFFFF;
+    }
+    
+    .table-responsive{
+        padding-top: 0%;
+        padding-left: 1.1em;
+    }
+    
+     /*configigurações do botn voltar e o cabelçalho*/       
+      .nav-stacked{
+          margin-left: -1em;
+          margin-right: -1em;
+      }
+      
+      .nab-branco{
+          margin-left: -2em;
+          margin-right: -1em;
+          margin-bottom: 0em;
+      }
+       /*FIM configigurações do botão voltar e a nav-bar*/
+       
+          /*tirando o espaçamento da tela com o padding*/
+       #elemento1{
+           padding: 0px;
+       }
+         /*FIm do codigo de retirando o espaçamento da tela com o padding*/

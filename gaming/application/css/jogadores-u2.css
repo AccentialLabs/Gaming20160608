@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 11:14:58
+    Author     : Raphael Pizzo
+*/
+
+.margembranca{
+    padding: 15px;
+}
+
+    
+.btncinza1{
+        margin-right: 5px;
+    } 
+    .btncinza2{
+        margin-right: 5px;
+    }
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 100%;
+    }
+    
+    .container-style{
+        height: 100%;
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    
+    /*Agrega uma separador dentro do menu */
+    .divider-style{
+        width:100%;
+         height: 1px;
+        background: #DCDCDC; 
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
+     /*Termina qui o separador  de dentro do menu */
+     
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }
+    /* Fim configurações da navbar*/
+
+    .breadcrumb{
+        background: #FFFFFF;
+    }
+    
+    .table-responsive{
+        padding-top: 0%;
+        padding-left: 1.1em;
+    }

@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 11:14:58
+    Author     : Raphael Pizzo
+*/
+
+                    /*cofiguracoes da caixa de login */
+                    
+                    .position{
+                        padding-left: 3em;
+                        padding-top: 8em;
+                    }
+                    
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;               /*  borda da caixa*/
+   padding: 0 24em 1.4em 1.4em !important;          /*  posição do texto cabeçalho esquerda-direita */
+    margin: 0 0 2.5em 0 !important;					 /*  posição da caixa de texto*/
+    -webkit-box-shadow:  0px 0px y 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;    /*  size login */
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto; 
+        padding:0 8px;			/*  position Login right-left */
+        width: 57px;                   /*  position do tamanho do espaço do login  */
+    }
+	
+fieldset
+{
+    background-color:#FFFFFF; 
+    width: 1em;                   /*   comprimento e largura da caixa de login */ 
+    height: 15em;                      /*   comprimento e altura para baixo da caixa de login */ 
+}
+
+legend.scheduler-border {
+border-bottom:none;
+}
+                        /*cofigurações da caixa de login */
+
+
+
+
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 100%;
+    }
+    .container-style{
+        height: 100%;
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    
+     
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }
+    /* Fim configurações da navbar*/
+    
+    .senhacx{
+        margin-left: 3em;
+        width: 100%;
+    }
+    
+    .email{
+        margin-left: 3em;
+         width: 100%;
+    }
+    
+      /*  Botão entrar*/
+    .btnposition{
+        padding-left: 18em;
+    }
+      /*fim botão entrar*/
+
+      
+    /*configurações de esqueci a senha*/
+    .senha{
+       margin-left: 2em;
+    }
+     /* FIM das configurações de esqueci a senha*/
+     
+     
+       /*configigurações do (BTN voltar e o NAVBAR-CABEÇALHO)*/ 
+      .nav-stacked{         
+          margin-left: -1em;
+          margin-right: -1em;
+      }
+      
+      .nab-branco{
+          margin-left: -2em;
+          margin-right: -1em;
+          margin-bottom: 0em;
+      }    /*FIM configigurações do (BTN voltar) e a (NAVBAR-CABEÇÃLHO)*/
+      
+      .login-box{
+          background: #fff;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 10px;
+          width: 35%;
+          left: 35%;
+         position: absolute;
+         top: 25%;
+         padding-top: 10px;
+      }
+      
+      body{
+          background: #dcdcdc;
+      }

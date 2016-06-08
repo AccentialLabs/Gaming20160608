@@ -1,0 +1,303 @@
+.celular{  /*Aqui é o ativo do iphone ou celular */
+
+   margin-right:10px;
+   margin-top: -35px;
+   margin-left: 770px;
+}
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}				/*Aqui termina o ativo do iphone ou celular */
+
+
+
+.col-md-1{     /*Aqui é o ativo do iphone ou celular */
+
+   margin-right:-10px;
+   margin-top: -330px;
+   margin-left: 810px;
+   
+}
+
+
+
+
+
+
+
+/*Esses são os botões do final da página cancelar-salvar*/
+.sidebar {
+ display: inline;
+ width: -10%;
+ float: right;
+ position: fixed-left;
+}
+
+		.row-fluid {		
+					 width: 700px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
+					}
+		
+        .unit2{                    /* faz a separação da no "nome" e "campo" na HORIZONTAL*/
+			width: 75px;
+		}		
+
+	color:Black;{
+	background-color:#000;
+	}
+	
+	.navbar-navbar-default{ 
+		 margin-left:0px;
+    width:90%;						/*para que o corpo de seu site tenha uma altura de 800 pixels
+									 e 500 pixels de largura,height-whidht*/
+    height:30px!important;
+    margin-top:7px;
+    position:absolute;
+	background-color:#FFF; 
+
+	}
+	
+	
+
+	.row-fluid {		
+			 width: 900px;   /* faz a separação do "nome" e "campo" na VERTICAL*/
+			    margin-right:20px;				/*Aqui é o tamanho da margin do nome com caixa de texto*/
+				margin-top: 10px;  
+				margin-left: 20px;				   /*Faz separação do do menu e a tabbable*/
+					}					
+		
+        .unit2{                    /* faz a separação da no "nome" e o "campo" na HORIZONTAL*/
+			width: 110px;
+		      }		
+
+			  
+			  
+			.unit3{                    /* Começa aqui as configurações de Endereço e número!!!*/
+			width: 70px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
+	        margin-top: -3px;  
+		      }	 
+			.row-fluid-1{ 
+           margin-top: -28px;
+			margin-right: 140px;
+		    margin-bottom: 50px;
+			margin-left: 500px;
+            }		 					 /* Termina aqui as configurações de Endereço e número!!!*/
+		
+		
+		.unit4{                    /* Começa aqui as configurações de Complemento e Bairro!!!*/
+	width: 45px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
+	margin-top: -3px;  
+    }	 
+     .unit5{                    
+	width: 110px;             
+	margin-top: -3px;  
+    }	 
+
+	 			
+.row-fluid-cidade{ 
+    margin-top: -40px;
+	margin-right: 140px;
+	margin-left: 20px;
+     }							  /* Termina aqui as configurações de Complemento e Bairro!!!*/
+
+					.row-fluid-3{        /* Começa aqui as configurações de Cidade - Estado- Pais*/
+
+					margin-top: -23px;
+						margin-right: 140px;
+						margin-left: 500px;
+					}	 	
+
+					.row-fluid-3-1{
+
+					margin-top: -23px;
+						margin-right: 140px;
+						margin-left: 575px;
+					}		
+
+                 .row-fluid-4{
+                   margin-top: -19px;
+				   margin-right: 140px;
+				   margin-left: 650px;
+					}	 	
+
+				.row-fluid-3-2{
+			      margin-top: -23px;
+				  margin-right: 140px;
+				   margin-left: 700px; 
+				}						  /* Termina aqui as configurações de Cidade - Estado- Pais*/
+	
+
+	     /* Começa aqui as configurações do telefone-celular da 	CAIXA DE TEXTO*/
+					
+				.unit7{                   
+					margin-top: -49px;
+						margin-right: 29px;
+						margin-left: -16px;
+					}	 
+
+					.row-fluid-5{
+					margin-top: -28px;
+						
+						margin-left: 518px;
+					}	   /* Termina aqui as configurações do telefone-celular da 	CAIXA DE TEXTO*/
+		
+			/* configurações da caixa de texto para adicionar uma imagem ...fazendo efeito cascata no responsável*/
+		       .row-fluid-6{
+					margin-top: -23px;
+						margin-right: 140px;
+						margin-left: 133px;
+					}	
+
+            .row-fluid-12{		
+			 margin-top: 10px;
+						margin-right: 140px;
+						margin-left: 380px;;				 
+				}
+				
+				 .row-fluid-11{		
+			 margin-top: 31px;
+						margin-right: 140px;
+						margin-left: 520px;				 
+				}
+				
+				.unit11-1{
+					margin-top: -49px;
+						margin-right: 140px;
+						margin-left: 660px;;
+				}
+				
+				.col-xs-4{
+					margin-top: -23px;
+						margin-right: 140px;
+						margin-left: 134px;;
+				}
+				.col-xs-5{
+					margin-top: -25px;
+						margin-right: 120px;
+						margin-left: 250px;;
+				} 
+				
+				.row-fluid15{
+					margin-top: -20px;
+						margin-right: 120px;
+						margin-left: 20px;;
+				}
+	
+		/* termina aqui configurações da caixa de texto para adicionar uma imagem */
+
+	
+	
+	
+    .navbar-brand{
+		
+		position: fixed center;
+			margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:0px ;
+			margin-right: 5px;
+			
+		padding-top: 5px; /*O padding tem um funcionamento muito similar ao do margin, porém ao invés de dar uma espaçamento
+		                    externo, faz a mesma coisa que a aclasse em baixo (sheduler-border) que a margin */
+		padding-right: 20px; 
+		padding-bottom: 0px;
+		padding-left: 5px;
+		
+	}
+	
+	
+	.navbar-header {
+		color:black;
+	
+		
+	}
+	
+	.container{
+		border: 1px solid pink;
+		
+	}
+	
+
+.container-fluid{ 
+	font-size:1.0em;
+	background-color:#fff;
+    margin-right: auto;
+    margin-left: auto;
+	padding-right: 150px;
+    padding-left: 15px;
+	position: relative;
+    min-height: 60px;
+    padding-right: 20px;
+    padding-left: 60px;
+}
+
+
+
+.divider { 
+	
+	background-color:#000;
+	margin-bottom:10px;
+}	
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px!important;
+    border: 1px solid transparent;
+}
+
+.breadcrumb {
+	background-color:#FFFFFF!important;
+}
+.btn-btn-large-btn-primary {
+		position:absolute;
+		top: 50px;
+		left: 50px;	
+	} 
+/* Posicionamento dos icones Checbox e stop*/
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
